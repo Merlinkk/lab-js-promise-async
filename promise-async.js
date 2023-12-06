@@ -2,7 +2,7 @@ const cookies = [{name:"Chocolate Cookies"},{name:"Macaron Cookies"}]
 const newCookie = {name:"Biscotti Cookies"};
 const list = document.querySelector('#list');
 
-let currentScript = 'promise-async.js.js';
+let currentScript = 'promise-async.js';
 const button = document.getElementById('button');
 button.textContent = `Current Script: ${currentScript}`;
 
